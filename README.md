@@ -89,7 +89,7 @@ Gradio prints a local URL (add `share=True` in `launch()` if you want a public l
 | `chat.py`       | Loads chunks, routes queries, calls GPT-4o-mini, dispatches tool calls. |
 | `data/chunks.json` | Your knowledge base (replace with your own). |
 | `requirements.txt` | Minimal deps. |
-| `assets/`       | Optional GIF / screenshots for README. |
+
 
 The bot routes a user query with a regex table.
 

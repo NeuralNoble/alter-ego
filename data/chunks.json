@@ -1,0 +1,99 @@
+[
+  {
+    "id": "summary",
+    "section": "summary",
+    "text": "I am a Bangalore-based computer-science under-grad (Scaler School of Technology, class of ’27) with a focus on applied machine learning and computer vision. I enjoy building full-stack ML systems—from data pipelines and model optimisation to production APIs—and have shipped projects in CV, RAG chatbots, and autonomous drones."
+  },
+
+
+  {
+    "id": "exp_videoverse_2024",
+    "section": "experience",
+    "role": "Machine Learning Engineer Intern",
+    "org": "VideoVerse",
+    "start": "2024-08",
+    "end": "2024-11",
+    "text": "Optimised model performance through load-testing and latency reduction, improving system efficiency and UX. Built attention-map visualisations to locate ROIs in video frames, enabling automatic landscape-to-portrait autoflip. Prototyped a natural-language video-search engine using vector embeddings. Streamlined data pipelines by pruning redundant steps, cutting processing time."
+  },
+
+  {
+    "id": "edu_scaler",
+    "section": "education",
+    "degree": "BSc Computer Science",
+    "institution": "Scaler School of Technology",
+    "start": "2023-08",
+    "end": "2027-08",
+    "text": "Coursework: ML systems design, distributed computing, data engineering."
+  },
+  {
+    "id": "edu_bits_pilani",
+    "section": "education",
+    "degree": "BSc Computer Science (transfer)",
+    "institution": "BITS Pilani",
+    "start": "2023-08",
+    "end": "2026-08",
+    "text": "Core CS foundation; parallel enrolment while pursuing industry projects."
+  },
+
+
+  {
+    "id": "skills_core",
+    "section": "skills",
+    "text": "Python, Java · PyTorch, TensorFlow, Scikit-Learn · Deep Learning, NLP, LLMs, Agents · Pandas, NumPy, OpenCV · RAG pipelines · Flask, FastAPI."
+  },
+  {
+    "id": "skills_infra",
+    "section": "skills",
+    "text": "Pinecone, ChromaDB, Weaviate · AWS, Azure · Git, Docker · Ray, Anyscale · LangChain, CrewAI."
+  },
+
+
+  {
+    "id": "prj_product_search",
+    "section": "project",
+    "name": "Product Search via Image Embeddings",
+    "repo": "github.com/NeuralNoble/Product-search-using-image-embeddings",
+    "text": "Streamlit + TensorFlow + ResNet50 image-search app. Extracts deep features, stores ANN index with Spotify Annoy, and returns top-5 visually similar fashion items in <300 ms."
+  },
+  {
+    "id": "prj_fire_detection",
+    "section": "project",
+    "name": "Drone Fire-Detection System",
+    "repo": "github.com/NeuralNoble/fire-detection",
+    "text": "YOLOv8-Nano on-board inference for real-time wildfire spotting; MobileNetV2 server-side validation; transmits coordinates and frames to base station with minimal bandwidth."
+  },
+  {
+    "id": "prj_medibot",
+    "section": "project",
+    "name": "MediBot — Medical QA Chatbot",
+    "repo": "github.com/NeuralNoble/MediBot",
+    "text": "RAG pipeline: Pinecone vector store + HF embeddings + OpenAI LLM. Flask UI delivers context-aware answers grounded in verified medical docs."
+  },
+  {
+    "id": "prj_tripbot",
+    "section": "project",
+    "name": "TripBot — AI Travel Planner",
+    "repo": "github.com/NeuralNoble/TripBot",
+    "text": "Telegram bot with three agents (itinerary, destination analysis, local insights). Personalises travel plans; Python workflow optimisation cut response latency ~35 %."
+  },
+  {
+    "id": "prj_logo_detection",
+    "section": "project",
+    "name": "Pepsi-Coke Logo Detection",
+    "repo": "github.com/NeuralNoble/logo-pepsi-coke-detection",
+    "text": "Custom-tuned YOLO pipeline that extracts frames, detects brand logos, and outputs JSON with timestamp + bbox metrics for marketing analytics."
+  },
+  {
+    "id": "prj_whatsapp_analyser",
+    "section": "project",
+    "name": "WhatsApp Chat Analyzer",
+    "repo": "github.com/NeuralNoble/whatsapp-chat-analyser",
+    "text": "CLI/Streamlit tool that parses exported chats, computes user-level stats, and visualises group dynamics."
+  },
+
+  {
+    "id": "contact",
+    "section": "contact",
+    "text": "📧 amananand1618@gmail.com · 🔗 linkedin.com/in/aman-anand-10b51320b · 💻 github.com/NeuralNoble"
+  }
+]

@@ -14,7 +14,7 @@ Lightweight, no database, just JSON + OpenAI function-calling.
 
 ## 1 · Clone & install
 ```bash
-git clone https://github.com/<your-handle>/portfolio-bot.git
+git clone https://github.com/NeuralNoble/portfolio-bot.git
 cd portfolio-bot
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt        # gradio, openai, python-dotenv, requests
@@ -91,14 +91,7 @@ Gradio prints a local URL (add `share=True` in `launch()` if you want a public l
 | `requirements.txt` | Minimal deps. |
 | `assets/`       | Optional GIF / screenshots for README. |
 
-The bot routes a user query with a regex table:
-
-| Regex hit | Section pulled into context |
-|-----------|-----------------------------|
-| `project|github|built`  | `project` |
-| `experience|job`        | `experience` |
-| `skill|tech|tool`       | `skills` |
-| …                       | … |
+The bot routes a user query with a regex table.
 
 It then sends:
 

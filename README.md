@@ -1,4 +1,4 @@
-```markdown
+
 # 🗂️ Portfolio-Bot — a 5-minute chatbot for your personal site  
 Lightweight, no database, just JSON + OpenAI function-calling.
 
